@@ -1,0 +1,97 @@
+i.search,
+i.heart,
+i.heart-red,
+i.tag,
+i.close,
+i.user,
+i.password,
+i.upload,
+i.cancel,
+i.thumb-up,
+i.add {
+  height: 32px;
+  width: 32px;
+  display: inline-block;
+  background-size: 24px 24px;
+  background-position: center center;
+  background-repeat: no-repeat;
+}
+
+i.search {
+  background-image: url('../../assets/icons/search.svg');
+}
+
+i.heart {
+  background-image: url('../../assets/icons/heart.svg');
+  cursor: pointer;
+}
+
+i.heart:hover {
+  background-image: url('../../assets/icons/heart-red.svg');
+}
+
+i.heart-red {
+  background-image: url('../../assets/icons/heart-red.svg');
+}
+
+i.tag {
+  background-image: url('../../assets/icons/tag.svg');
+  vertical-align: middle;
+  margin-right: 12px;
+}
+
+i.close {
+  height: 48px;
+  width: 48px;
+  background-size: 36px 36px;
+  background-image: url('../../assets/icons/close.svg');
+}
+
+i.close:hover {
+  background-image: url('../../assets/icons/close-hover.svg');
+}
+
+i.user,
+i.password {
+  height: 36px;
+  width: 36px;
+  background-size: 32px 32px;
+  vertical-align: bottom;
+}
+
+i.user {
+  background-image: url('../../assets/icons/username.svg');
+}
+
+i.password {
+  background-image: url('../../assets/icons/password.svg');
+}
+
+i.upload {
+  background-image: url('../../assets/icons/upload.svg');
+}
+
+i.cancel {
+  background-image: url('../../assets/icons/cancel.svg');
+  width: 18px;
+  height: 18px;
+  background-size: 18px 18px;
+}
+
+i.cancel:hover {
+  background-image: url('../../assets/icons/cancel-hover.svg');
+  width: 18px;
+  height: 18px;
+  background-size: 18px 18px;
+}
+
+i.thumb-up,
+i.add {
+  background-size: 18px 18px;
+  vertical-align: middle;
+  background-image: url('../../assets/icons/thumb-up.svg');
+}
+
+i.add {
+  background-image: url('../../assets/icons/add-icon.svg');
+}

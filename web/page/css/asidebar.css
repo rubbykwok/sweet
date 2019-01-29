@@ -1,0 +1,56 @@
+/* 右侧栏 */
+
+#aside__bar-right {
+  border: 1px solid #ddd;
+  border-bottom: none;
+  background-color: #fff;
+  box-shadow: 0 0 15px #ddd;
+  float: left;
+  width: 20%;
+  margin-left: 3%;
+}
+
+#aside__menu {
+  margin: 0;
+  padding: 0;
+  font-size: 14px;
+}
+
+#aside__menu li {
+  border-bottom: 1px solid #ddd;
+  list-style: none;
+  width: 100%;
+  padding: 12px;
+  text-align: center;
+}
+
+#aside__menu a {
+  text-decoration: none;
+}
+
+.my__info {
+  display: flex;
+  justify-content: center;
+  align-content: center;
+}
+
+.my__avatar {
+  border: 1px solid #ddd;
+  border-radius: 48px;
+  margin-right: 12px;
+}
+
+.my__info p {
+  margin: 2px;
+  line-height: 1.5;
+}
+
+#login__to-reg {
+  font-size: 12px;
+  padding: 5px 15px;
+}
+#log-out-btn {
+  height: 24px;
+  width: 48px;
+  font-size: 12px;
+}

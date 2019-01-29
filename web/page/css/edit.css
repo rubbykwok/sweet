@@ -1,0 +1,150 @@
+.container {
+  padding: 24px 0;
+}
+
+.flex {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+}
+
+.input-wrapper {
+  margin-bottom: 50px;
+}
+
+.input-wrapper>label {
+  display: inline-block;
+  font-size: 22px;
+  color: #5e5e5e;
+  margin-right: 40px;
+}
+
+.filter {
+  border: none;
+  box-shadow: 0 0 0 transparent;
+  padding: 20px 0;
+  margin-left: -12px;
+}
+
+#title {
+  height: 36px;
+  width: 600px;
+  padding: 8px;
+  border-bottom: 3px solid #ddd;
+  color: #2e2e2e;
+}
+
+#title:focus {
+  box-shadow: 0 0 0;
+  border-bottom-color: #f8bbd0;
+}
+
+#abstract,
+#material {
+  display: block;
+  width: 100%;
+  padding: 12px;
+  border: 1px solid #ddd;
+  margin-top: 20px;
+  color: #2e2e2e;
+  font-size: 14px;
+  border-radius: 3px;
+}
+
+textarea:focus {
+  box-shadow: 0 0 3px #ddd;
+  border: 1px solid #f8bbd0 !important;
+}
+
+#step {
+  border: 1px solid #ddd;
+  padding: 24px;
+  margin-top: 20px;
+}
+
+.step-n {
+  margin-top: 30px;
+  padding-bottom: 20px;
+}
+
+.step-n .label {
+  font-size: 16px;
+  color: #5e5e5e;
+  margin-bottom: 20px;
+}
+
+input[type="file"] {
+  display: none;
+}
+
+.step__upload-btn,
+.step__upload-preview {
+  width: 150px;
+  height: 150px;
+  border: 1px dashed #9e9e9e;
+  border-radius: 8px;
+  margin-left: 40px;
+  
+}
+
+.step__upload-btn {
+  background: url('../../assets/icons/add.svg') no-repeat center center;
+  background-size: 48px 48px;
+  cursor: pointer;
+}
+
+.step__upload-preview {
+  position: relative;
+  background: no-repeat center center;
+  background-size: cover;
+}
+
+.step__upload-cancel {
+  width: 18px;
+  height: 18px;
+  padding: 0;
+  border: none;
+  border-radius: 9px;
+  margin: 0;
+  position: absolute;
+  top: -4px;
+  right: -4px;
+  background-color: #fff;
+  cursor: pointer;
+}
+
+.step__content {
+  width: 65%;
+  border: 1px solid #ddd;
+  padding: 12px;
+  font-size: 14px;
+}
+
+#step__add {
+  height: 36px;
+  width: 120px;
+  cursor: pointer;
+  border: 1px solid #ddd;
+  box-shadow: 0 0 3px #ddd;
+  font-size: 14px;
+  border-radius: 3px;
+}
+
+#step__add span {
+  vertical-align: middle;
+}
+
+#edit-finish {
+  display: block;
+  width: 150px;
+  padding: 12px;
+  margin: 50px auto;
+}
+.tips{
+  display: none;
+  width: 60%;
+  font-size: 12px;
+  color: #921111;
+  margin: 0 auto;
+  text-align: left;
+}

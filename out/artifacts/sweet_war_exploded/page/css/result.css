@@ -1,0 +1,36 @@
+#search__wrapper {
+  border: 1px solid #ddd;
+  box-shadow: 0 0 8px #ddd;
+  font-size: 14px;
+}
+
+#search__wrapper form {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  margin: 0;
+}
+
+#search__input {
+  display: inline-block;
+  width: 90%;
+  height: 50px;
+  font-size: 14px;
+  padding: 8px 12px;
+}
+
+#search__btn {
+  width: 10%;
+  height: 50px;
+  background-color: transparent;
+  color: #2e2e2e;
+  border-left: 1px solid #ddd;
+  cursor: pointer;
+}
+
+#search__wrapper i.search {
+  height: 24px;
+  width: 24px;
+  background-size: 18px 18px; 
+  vertical-align: middle;  
+}

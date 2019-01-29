@@ -1,0 +1,107 @@
+/* Nav导航栏  */
+
+#nav__wrapper {
+  position: fixed;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 82px;
+  color: #fff;
+  border-bottom: 1px solid #ddd;
+  background-color: #f8bbd0;
+  box-shadow: 0px 3px 10px #ddd;
+  font-size: 20px;
+  z-index: 100;
+}
+
+#nav {
+  width: 1024px;
+  height: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 0 auto;
+}
+
+#nav__brand {
+  height: 100%;
+  background-image: url('../../assets/icons/brand.svg');
+  background-size: 48px 48px;
+  background-repeat: no-repeat;
+  background-position: 80% -10px;
+}
+
+#nav__brand::after {
+  content: '';
+  display: inline-block;
+  height: 100%;
+  vertical-align: middle;
+}
+
+#nav__menu {
+  height: 100%;
+}
+
+.nav__menu-item {
+  height: 100%;
+  list-style: none;
+  display: inline-block;
+  margin-right: 32px;
+  position: relative;
+}
+
+.nav__menu-item::after {
+  content: '';
+  display: inline-block;
+  height: 100%;
+  vertical-align: middle;
+}
+
+.nav__menu-item a {
+  color: #fff;
+  display: inline-block;
+  text-decoration: none;
+}
+
+.nav__menu-item a:hover {
+  font-weight: 600;
+}
+
+#nav__search {
+  display: flex;
+  justify-content: center;
+  align-items: middle;
+}
+
+#nav__search .icon {
+  width: 40px;
+  padding: 3px;
+  background-color: #fff;
+  border-radius: 30px 0 0 30px;
+}
+
+#nav__search-text {
+  padding: 8px;
+  font-size: 14px;
+  border-radius: 0 30px 30px 0;
+}
+
+.arrow {
+  display: none;
+  position: absolute;
+  bottom: 0.5px;
+  left: 50%;
+  transform: translateX(-50%);
+  width: 24px;
+  border: 12px solid transparent;
+  border-bottom-color: #fff;
+}
+
+.arrow--active {
+  display: block;
+}
+
+.text--active {
+  color: #fff !important;
+  font-weight: 600;
+}

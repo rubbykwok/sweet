@@ -1,0 +1,119 @@
+#user>header,
+#user #mine{
+  border: 1px solid #ddd;
+  box-shadow: 0 0 3px #ddd;
+  margin-bottom: 40px;
+}
+
+#user header {
+  padding: 18px 32px;
+}
+
+#user #others {
+  min-height: 300px;
+  padding: 18px 24px;
+}
+
+#user__avatar {
+  width: 120px;
+  height: 120px;
+  border-radius: 60px;
+  border: 1px solid #ddd;
+  margin-right: 50px;
+}
+
+#user__info {
+  padding-top: 10px;
+  color: #5e5e5e;
+}
+
+#user__info .label {
+  color: #9e9e9e;
+  font-size: 16px;
+}
+
+#user__info p {
+  margin-bottom: 20px;
+}
+
+#user__nickname {
+  font-size: 24px;
+  margin-right: 40px;
+}
+
+#user__sex {
+  font-size: 14px;
+}
+
+#user__point,
+#user__sign {
+  font-size: 14px;
+}
+
+#user #tabs {
+  height: 48px;
+  border-bottom: 1px solid #ddd;
+  box-sizing: content-box;
+}
+
+#tab__my-moments,
+#tab__my-collections {
+  display: inline-block;
+  width: 49.5%;
+  text-align: center;
+  text-decoration: none;
+  height: 100%;
+  font-size: 14px;
+  color: #9e9e9e;
+  border-bottom: 3px solid transparent;
+}
+
+#tabs a::before {
+  display: inline-block;
+  content: '';
+  height: 100%;
+  vertical-align: middle;
+}
+
+#user .tab--active {
+  color: #2e2e2e;
+  border-bottom-color: #f8bbd0 !important;
+}
+
+#user .content {
+  display: none;
+  min-height: 300px;
+  padding: 18px 24px;
+}
+
+#user .content--active {
+  display: block;
+}
+
+#user .moment {
+  border-bottom: 1px solid #ddd;
+  padding-bottom: 20px;
+}
+
+#user .moment__content {
+  align-items: flex-start;
+  justify-content: space-between;
+  margin-bottom: 20px;
+}
+
+#user .moment__content>div {
+  width: 60%;
+}
+
+#user .moment__img {
+  width: 200px;
+}
+
+#user .moment__publish-date {
+  float: right;
+}
+
+#user .moment__desc {
+  margin-top: 20px;
+  padding: 0;
+}

@@ -1,0 +1,99 @@
+#login__wrapper,
+#reg__wrapper， #imp__wrapper {
+  text-align: center;
+}
+
+#login__t,
+#reg__t,
+#imp__t {
+  font-size: 18px;
+  margin-bottom: 20px;
+}
+
+#login__rmb-me {
+  color: #9e9e9e;
+  font-size: 14px;
+  vertical-align: middle;
+}
+
+#login__btn,
+#reg__btn,
+#imp__btn {
+  width: 220px;
+  height: 36px;
+  padding: 8px;
+  font-size: 14px;
+}
+
+#login__to-reg,
+#reg__to-login {
+  color: #9e9e9e;
+  font-size: 14px;
+}
+
+.dialog__wrapper input[type="text"],
+.dialog__wrapper input[type="password"] {
+  height: 36px;
+  width: 220px;
+  padding: 8px 12px;
+  font-size: 14px;
+  border-radius: 5px;
+}
+
+#imp__sign {
+  width: 220px;
+  padding: 8px;
+  font-size: 12px;
+}
+
+#imp__sex {
+  width: 220px;
+  height: 36px;
+  padding: 8px;
+  font-size: 12px;
+  color: #2e2e2e;
+  border: none;
+  outline: none;
+}
+
+#imp__sex option {
+  padding: 8px;
+}
+
+.dialog__wrapper input[type="checkbox"] {
+  visibility: hidden;
+}
+
+.dialog__wrapper input[type="checkbox"]+label::before {
+  content: '\a0';
+  display: inline-block;
+  vertical-align: text-top;
+  width: 12px;
+  height: 12px;
+  margin-right: 8px;
+  background-color: #fff;
+  border: 1px solid #ddd;
+}
+
+.dialog__wrapper input[type="checkbox"]:checked+label::before {
+  content: '\2713';
+  font-size: 18px;
+  line-height: .5;
+  box-shadow: 0 0 8px #ddd;
+}
+
+.input-wrapper {
+  border: 1px solid #ddd;
+  margin: 10px auto;
+  width: fit-content;
+  border-radius: 5px;
+}
+
+.tips{
+  display: none;
+  width: 60%;
+  font-size: 12px;
+  color: #921111;
+  margin: 0 auto;
+  text-align: left;
+}
